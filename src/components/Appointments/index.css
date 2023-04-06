@@ -1,0 +1,107 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.appointment-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sub-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.main-heading {
+  font-size: 34px;
+  font-weight: 800;
+  font-family: 'Roboto';
+  color: #171f46;
+}
+.input-image-container {
+  display: flex;
+  justify-content: space-between;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  font-size: 10px;
+  font-weight: 800;
+  font-family: 'Roboto';
+  color: #b5b7c4;
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+.input {
+  height: 48px;
+  width: 100%;
+  border: 1px solid #171f46;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  padding-left: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #171f46;
+  margin-bottom: 15px;
+}
+.submit-button {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: #8b5cf6;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  align-self: flex-start;
+}
+.appointment-image {
+  display: none;
+}
+.separator {
+  height: 2px;
+  background-color: gray;
+  width: 100%;
+}
+.bottom-section-heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom-section-heading {
+  font-size: 24px;
+}
+.stared-button {
+  background-color: transparent;
+  border: 1px solid gray;
+  color: #171f46;
+  padding: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.appointment-list-container {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .appointment-image {
+    display: flex;
+    width: 300px;
+    height: 200px;
+  }
+}

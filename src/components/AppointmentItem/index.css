@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.list-item {
+  border: 1px solid #b5b7c4;
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.appointment-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.item-heading {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 600;
+}
+.date {
+  font-size: 14px;
+  font-weight: 400;
+}
+.button-star {
+  border: none;
+  background-color: transparent;
+  height: 22px;
+  width: 22px;
+}
+.star-image {
+  width: 22px;
+  height: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-item {
+    width: 290px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+}
